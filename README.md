@@ -1,7 +1,7 @@
 # Parking space count
 This project uses a YOLOv8-trained model to count the available parking space. It further showcases how we can use OpenVINO for faster inference.
 
-The dataset to train the model was downloaded from [here](https://public.roboflow.com/object-detection/pklot)
+The dataset to train the model was downloaded from Roboflow.
 
 
 ### Requirements:
@@ -14,7 +14,7 @@ The dataset to train the model was downloaded from [here](https://public.roboflo
 
 ### Steps to run:
 
-1. Download the dataset \runs\detect\yolov8n_park_20e5\weights
+1. Download the dataset from [here](https://public.roboflow.com/object-detection/pklot)
 2. Use the file `1.datasplit.py` to split the dataset (optional)
 3. Create a `data.yaml` file and run `2.yv8_train.py` to start training
 4. A model will be created at `./runs/detect/yolov8n_park_20e/weights` with the name `best.pt`
